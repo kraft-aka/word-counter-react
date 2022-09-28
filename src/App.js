@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <h1>Let's check how fast do you type!</h1>
-      <textarea onChange={handleChange} value={text} />
+      <textarea onChange={handleChange} value={text} disabled={!isDisabled} />
       <h4>Time remaining: {time}</h4>
       <button onClick={startGame} disabled={isDisabled}>
         Start
