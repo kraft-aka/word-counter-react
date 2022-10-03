@@ -22,6 +22,7 @@ button {
   background: #00b800;
   padding: 10px 20px;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 button:disabled {
@@ -29,8 +30,10 @@ button:disabled {
 }
 
 h1 {
-  font-size: 20px;
-  text-align:center;
+  font-size: 28px;
+  text-align: center;
+  margin: 35px 0;
+  text-transform: uppercase;
 }
 
 textarea {
